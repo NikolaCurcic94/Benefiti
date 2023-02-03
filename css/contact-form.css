@@ -1,9 +1,10 @@
 #fcf-form {
     display: block;
+   
 }
 
 .fcf-body {
-    margin-left: 25%;
+    margin-left: 10%;
     margin-top: 80px;
     font-family: -apple-system, Arial, sans-serif;
     font-size: 1rem;
@@ -13,13 +14,13 @@
     text-align: left;
     background-color: #fff;
     padding: 30px;
-    padding-bottom: 10px;
-    border: 2px solid #ced4da; 
-    -webkit-box-shadow: -42px 32px 25px 0px rgba(227,123,250,0.85);
-    -moz-box-shadow: -42px 32px 25px 0px rgba(227,123,250,0.85);
-    box-shadow: -42px 32px 25px 0px rgba(227,123,250,0.85);
+    padding-bottom: 30px;
+    border: 2px solid #ced4da;
+    -webkit-box-shadow: -42px 32px 25px 0px rgba(227, 123, 250, 0.85);
+    -moz-box-shadow: -42px 32px 25px 0px rgba(227, 123, 250, 0.85);
+    box-shadow: -42px 32px 25px 0px rgba(227, 123, 250, 0.85);
     border-radius: 0.25rem;
-    max-width: 50%;
+    max-width: 70%;
 }
 
 .fcf-form-group {
@@ -60,10 +61,11 @@
     box-shadow: 0 0 5px #e58df7;
     padding: 3px 0px 3px 3px;
     margin: 5px 1px 3px 0px;
-    
+
 }
 
-select.fcf-form-control[size], select.fcf-form-control[multiple] {
+select.fcf-form-control[size],
+select.fcf-form-control[multiple] {
     height: auto;
 }
 
@@ -125,7 +127,8 @@ label.fcf-label {
     text-decoration: none;
 }
 
-.fcf-btn:focus, .fcf-btn.focus {
+.fcf-btn:focus,
+.fcf-btn.focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
@@ -142,14 +145,16 @@ label.fcf-label {
     border-color: #0062cc;
 }
 
-.fcf-btn-primary:focus, .fcf-btn-primary.focus {
+.fcf-btn-primary:focus,
+.fcf-btn-primary.focus {
     color: #fff;
     background-color: #0069d9;
     border-color: #0062cc;
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
-.fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
+.fcf-btn-lg,
+.fcf-btn-group-lg>.fcf-btn {
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
     line-height: 1.5;
@@ -165,6 +170,8 @@ label.fcf-label {
     margin-top: 0.5rem;
 }
 
-input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+input[type="submit"].fcf-btn-block,
+input[type="reset"].fcf-btn-block,
+input[type="button"].fcf-btn-block {
     width: 100%;
 }
