@@ -1,0 +1,36 @@
+h1 {
+  margin-bottom: 60px;
+  font-family: Montserrat, sans-serif;
+  font-size: 52px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+@media (max-width: 479px) {
+  h1 {
+    font-size: 24px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+  }
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.h1__and__img__wrapper {
+  margin: 0 auto;
+}
+
+.bolded {
+  font-weight: 600;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underlined {
+  text-decoration-line: underline;
+}
