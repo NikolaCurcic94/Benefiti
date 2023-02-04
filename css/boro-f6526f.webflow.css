@@ -3970,9 +3970,9 @@ blockquote {
     margin-right: 4px;
   }
 
-  .burger-icon {
+  /* .burger-icon {
     color: #fff;
-  }
+  } */
 
   .nav-link.home.w-current {
     box-shadow: none;
@@ -4285,9 +4285,9 @@ blockquote {
     flex: 0 auto;
   }
 
-  .burger-icon {
+  /* .burger-icon {
     color: #fff;
-  }
+  } */
 
   .nav-link {
     color: #333;
